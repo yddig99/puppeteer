@@ -16,4 +16,5 @@ await page.waitForSelector('.g a');
 await page.click('.g a');
 
 await page.waitForTimeout(10000)
+
 await browser.close();
